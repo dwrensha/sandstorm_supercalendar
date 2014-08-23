@@ -1,0 +1,9 @@
+{
+  "packages": {
+      "supercalendar": {
+          "git":"https://github.com/dwrensha/meteor_supercalendar.git",
+          "branch":"update"
+      }
+ }
+
+}
