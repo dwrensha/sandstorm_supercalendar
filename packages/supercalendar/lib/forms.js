@@ -7,9 +7,9 @@ Mesosphere.registerRule('checkDate', function (fieldValue, ruleValue) {
         today = new Date((new Date()).setHours(0, 0, 0, 0));
 
     date = new Date(date[0], date[1] - 1, date[2]);
-    if (+date < +today) {
-        return false;
-    }
+//    if (+date < +today) {
+//        return false;
+//    }
     return true;
 });
 
@@ -21,9 +21,9 @@ Mesosphere.registerRule('checkTime', function (fieldValue, ruleValue) {
         now = new Date();
 
     time = new Date(now.setHours(time[0], time[1]));
-    if (+time < +now) {
-        return false;
-    }
+//    if (+time < +now) {
+//        return false;
+//    }
     return true;
 });
 
